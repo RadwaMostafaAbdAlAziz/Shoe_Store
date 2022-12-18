@@ -6,10 +6,6 @@ the view is so simple and there is no nesting views-->
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <data>
-
-
-    </data>
 
     <FrameLayout
         android:layout_width="match_parent"

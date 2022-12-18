@@ -10,7 +10,7 @@ the view is so simple and there is no nesting views-->
         android:layout_height="match_parent"
         tools:context=".ui.MainActivity">
 
-        <fragment
+        <androidx.fragment.app.FragmentContainerView
             android:id="@+id/myNavHostFragment"
             android:name="androidx.navigation.fragment.NavHostFragment"
             android:layout_width="match_parent"

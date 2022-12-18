@@ -36,11 +36,13 @@ class DetailsFragment : Fragment() {
                 Toast.makeText(context,"please fill fields",Toast.LENGTH_LONG).show()
             }
             else{
-                viewModel.addShoe (binding.edtName.text.toString()
-                    ,binding.edtSize.text.toString().toDouble()
-                    , binding.edtCompany.text.toString() ,
-                    binding.edtDescription.text.toString()
-                    ,"" )
+                viewModel.addShoe()
+//                viewModel.addShoe (binding.edtName.text.toString()
+//                    ,binding.edtSize.text.toString().toDouble()
+//                    , binding.edtCompany.text.toString() ,
+//                    binding.edtDescription.text.toString()
+//                    ,"" )
+
                 findNavController().navigateUp()
             }
 

@@ -31,6 +31,8 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         binding = HomeFragmentBinding.inflate(layoutInflater)
+//        binding.shoe = viewModel.shoe
+
         setHasOptionsMenu(true)
 
 //        viewModel = ViewModelProvider(requireActivity())[ShoeViewModel::class.java]

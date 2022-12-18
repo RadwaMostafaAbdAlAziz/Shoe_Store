@@ -13,10 +13,9 @@ class ShoeViewModel : ViewModel() {
 
     var shoeList = MutableLiveData<List<Shoe>>()
 
-    fun addShoe (name : String ,size : Double , company : String ,describtion : String ,image : String){
-        shoe = Shoe(name,size,company,describtion,image)
+    fun addShoe (){
         Log.e("inViewModel",shoe.toString())
-        list.add(Shoe(name,size,company,describtion,image))
+        list.add(shoe)
         shoeList.value = list
         Log.e("inViewModel",shoeList.value.toString())
 
