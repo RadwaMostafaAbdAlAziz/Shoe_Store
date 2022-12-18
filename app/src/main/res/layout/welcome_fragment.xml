@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--i have used LinearLayout because
+the view is so simple and there is no nesting views-->
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/gredient">
+
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="welcome to"
+            android:layout_marginTop="150dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="to"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="shoe_store"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/purple_500"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="next"/>
+
+    </LinearLayout>
+</layout>
